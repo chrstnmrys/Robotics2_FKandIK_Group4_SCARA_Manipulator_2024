@@ -3,8 +3,12 @@
 # CONTENTS OF THIS LABORATORY 1
 ## PART 1 - FORWARD KINEMATICS
 ### KINEMATIC DIAGRAM OF SCARA 
+[A. Kinematic Diagram with labels and frames.pdf](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/files/14447977/A.Kinematic.Diagram.with.labels.and.frames.pdf)
 
 ### PARAMETRIC TABLE
+[B. Parametric Table.pdf]
+(https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/files/14447984/B.Parametric.Table.pdf)
+
 
 ### COMPARISON OF FORWARD KINEMATICS IN MATLAB AND PYTHON
 
