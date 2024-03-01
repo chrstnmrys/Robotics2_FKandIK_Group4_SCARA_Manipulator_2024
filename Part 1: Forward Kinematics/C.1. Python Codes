@@ -9,9 +9,9 @@ a4 = float(input("a4 = "))
 a5 = float(input("a5 = "))
 
 # joint variables: is mm if f, is degrees if theta
-T1 = float(input("T1 = ")) #30 deg
-T2 = float(input("T2 = ")) #-90 deg
-d3 = float(input("d3 = ")) #20 mm
+T1 = float(input("T1 = ")) 
+T2 = float(input("T2 = ")) 
+d3 = float(input("d3 = ")) 
 
 # degree to radian
 T1 = (T1/180.0)*np.pi
