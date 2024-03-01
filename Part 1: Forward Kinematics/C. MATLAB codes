@@ -4,13 +4,13 @@ syms a1 a2 a3 a4 a5 t1 t2 d3
 
 %% Link lengths
 
-a1 = 3;
-a2 = 3;
-a3 = 3;
-a4 = 3;
-a5 = 3;
+a1 = 20;
+a2 = 15;
+a3 = 10;
+a4 = 20;
+a5 = 15;
 %% Joint Variables
-d3 = 4;
+d3 = 10;
 
 %% D-H Parameters [theta, d, r, alpha, offset]
 % if prismatic joint: theta = theta, d = 0, offset = 1, after offset put the value of d
@@ -26,13 +26,8 @@ H2_3 = Link([0,0,0,0,1,a5]);
 H2_3.qlim = [0 d3];
 
 Scara = SerialLink([H0_1 H1_2 H2_3], 'name', 'SCARA')
-Scara.plot([0,0,0], 'workspace', [-10 10 -10 10 -2 10])
+Scara.plot([0,0,0], 'workspace', [-10 60 70 700 -10 70])
 Scara.teach
 
-%% Forward Kinematics
-fkin = [0 0]; % Values of Joint Variables
-F_Kin = Scara.fkine(fkin)
 
-fkin_1 = [pi/2 -pi/2]
-F_Kin_1 = Scara.fkine(fkin_1)
 
