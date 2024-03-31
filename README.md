@@ -14,15 +14,16 @@
 
 <div align="justify">More generally, DoF is essential to comprehending the capabilities of a robot. A robot with more degrees of freedom can carry out more complex tasks and adjust to a larger variety of conditions. Higher DoF can, however, also lead to more complex programming since they usually call for more advanced control systems. A key component of robotics design is balancing the number of degrees of freedom with the particular tasks a robot has to perform.</div>
 
-
 \
-The following are the Ideal Degrees of Freedom
+\
+***The following are the Ideal Degrees of Freedom***
 + A point in 2D: 2-DoF ; 3D: 3-DoF
 + A rigid body in 3D: 6-DoF
 + Planar Manipulator: 3-DoF
 + Spatial Manipulator: 6-DoF
 
-Three Types of Manipulator based on the number of Degrees of Freedom
+\
+***Three Types of Manipulator based on the number of Degrees of Freedom***
 1. Under-Actuated Manipulator
    - Either a spatial manipulator with less than 6-dof or a planar manipulator with less than 3-DoF.
 
@@ -51,6 +52,14 @@ Three Types of Manipulator based on the number of Degrees of Freedom
 |      Cylindrical(c)     |                  2         |<p align="center">N/A</p>        |<p align="center">4</p>       |
 |      Universal (U)      |                  2         |<p align="center">N/A</p>        |<p align="center">4</p>       |
 |      Spherical (S)      |                  3         |<p align="center">N/A</p>        |<p align="center">3</p>       |
+
+\
+***STEP-BY-STEP COMPUTAION OF DEGREES OF FREEDOM (DoF)***
+
+| ***RRP SCARA MANIPULATOR***  |      ***SOLUTION***     |
+| ---------------------------- | ----------------------- |
+|                              |                         |
+
 ##	IV. Kinematic Diagram and D-H Frame assignment of SCARA Manipulator 													
 ##	V. D-H Parametric Table of SCARA Manipulator														
 ##	VI. HTM of SCARA Manipulator													
