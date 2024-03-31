@@ -8,12 +8,27 @@
 
 ***<div align="justify">SCARA Manipulators*** are versatile beyond only their mechanical design. These robots, which have advanced control systems and programming interfaces, may easily be integrated into automated production lines and synced with other equipment, increasing productivity and efficiency.</div>
 
-##  III. Degrees of Freedom of SCARA Manipulator description and computation.		
-Degrees of Freedom is define as the minimum number of independent parameters/variables/coordinates needed to describe a system completely.
+##  III. Degrees of Freedom of SCARA Manipulator 	
 
-##	IV. Kinematic Diagram and D-H Frame assignment of SCARA Manipulator description and computation.														
-##	V. D-H Parametric Table of SCARA Manipulator description and computation.														
-##	VI. HTM of SCARA Manipulator description and computation.														
-##	VII. Inverse Kinematics of SCARA Manipulator description and computation.														
-##	VIII. Forward and Inverse Kinematics GUI calculator of SCARA Manipulator description and computation.														
+***<div align="justify">Degrees of Freedom*** is define as the minimum number of independent parameters/variables/coordinates needed to describe a system completely. Consider a robotic arm. Its degrees of freedom are determined by each joint, which allows it to move in any direction, turn, and bend. For example, a simple arm with an elbow and shoulder joint may have two degrees of freedom, one for the movement of each joint.</div>
+
+<div align="justify">More generally, DoF is essential to comprehending the capabilities of a robot. A robot with more degrees of freedom can carry out more complex tasks and adjust to a larger variety of conditions. Higher DoF can, however, also lead to more complex programming since they usually call for more advanced control systems. A key component of robotics design is balancing the number of degrees of freedom with the particular tasks a robot has to perform.</div>
+
+
+The following are the Ideal Degrees of Freedom
++ A point in 2D: 2-DoF ; 3D: 3-DoF
++ A rigid body in 3D: 6-DoF
++ Planar Manipulator: 3-DoF
++ Spatial Manipulator: 6-DoF
+
+Three Types of Manipulator based on the number of Degrees of Freedom
+
+
+
+
+##	IV. Kinematic Diagram and D-H Frame assignment of SCARA Manipulator 													
+##	V. D-H Parametric Table of SCARA Manipulator														
+##	VI. HTM of SCARA Manipulator													
+##	VII. Inverse Kinematics of SCARA Manipulator													
+##	VIII. Forward and Inverse Kinematics GUI calculator of SCARA Manipulator									
 ##	IX. References														
