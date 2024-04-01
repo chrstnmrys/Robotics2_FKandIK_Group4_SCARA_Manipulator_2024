@@ -23,14 +23,14 @@
 + Spatial Manipulator: 6-DoF
 
 \
-***Three Types of Manipulator based on the number of Degrees of Freedom***
-1. Under-Actuated Manipulator
+**Three Types of Manipulator based on the number of Degrees of Freedom**
+1. ***Under-Actuated Manipulator***
    - Either a spatial manipulator with less than 6-dof or a planar manipulator with less than 3-DoF.
 
-2. Ideal Manipulator
+2. ***Ideal Manipulator***
    - Either a spatial manipulator with exactly 6-dof or a planar manipulator with exactly 3-DoF.
 
-3. Redundant Manipulator
+3. ***Redundant Manipulator***
    - Either a spatial manipulator with more than 6-dof or a planar manipulator with more than 3-DoF.
   
 ***Note:*** If the DOF of a manipulator is more than the Ideal Manipulator or based on your computation it is a Redundant Manipulator it is called ***Mobility***. 
@@ -60,7 +60,40 @@
 | ---------------------------- | ----------------------- |
 |                              |                         |
 
-##	IV. Kinematic Diagram and D-H Frame assignment of SCARA Manipulator 													
+##	IV. Kinematic Diagram and D-H Frame assignment of SCARA Manipulator 
+
+***<div align="justify"> ***Kinematics*** the science of motion that treats the subject without regard to the forces that cause it. It includes the geometry, arrangement, and relative motion of the parts that make up a robot's mechanism. Understanding and managing the motion of manipulators, mobile robots, robotic arms, and other robotic systems requires an extensive knowledge of kinematics.</div>
+\
+***There are Two Main branches of Kinematics in Robotics***:
+
+**<div align="justify">1. Forward Kinematics**: This branch deals with determining the position and orientation of the end-effector (the tool or device attached to the end of a robot arm) given the joint angles or lengths of the robot's links. In other words, it calculates the end position of the robot's tool given the joint configurations.</div>
+
+**<div align="justify">2. Inverse Kinematics**: Inverse kinematics involves finding the joint angles or lengths required to position the end-effector at a desired location and orientation. It is essentially the reverse process of forward kinematics, where instead of finding the end position from joint configurations, it finds the joint configurations from the desired end position.</div>
+
+***Kinematic Diagram***
+<div align="justify">Diagram that shows how the links and joints are connected together when all of the joint variables have a value of zero.</div>
+
+***Joint Diagram***
+
+| ***Twisting/Revolute Joints***  |      ***Prismatic Linear/ Orthogonal Joints***    |
+| ----------------------------    | -----------------------                           |
+|                                 |                                                   |
+
+***Links*** are the rigid parts of the mechanical manipulator, joints are also considered links and the values are constant.
+
+- If revolute/twisting, links are drawn from the center of rotation.
+- If prismatic either linear orthogonal, links are drawn from center of translation.
+- If from base, links are drawn from center of gravity.
+
+  ***Joint Variable***
+  These are the values that change when the joints moves.
+  
+|                         | ***Theta n***                   |      ***dn***            |
+|-------------------------| ----------------------------    | -----------------------  |
+|    Unit                 |                                 |                          |
+|    Indicator            |                                 |                          |
+|    Joint                |                                 |                          |
+
 ##	V. D-H Parametric Table of SCARA Manipulator														
 ##	VI. HTM of SCARA Manipulator													
 ##	VII. Inverse Kinematics of SCARA Manipulator													
