@@ -45,13 +45,13 @@
 ***Mechanical Manipulator Anatomy***
 
 | ***Joint Type*** | ***DoF *f****|***Constraints c between two planar rigid <p align="center">bodies</p>***|***Constraints c between two spatailrigid <p align="center">bodies</p>***| 
-| ------------------------- | ------------------------ | ------------------------ | ------------------------ | 
-|      Revolute (R)       |                  1         |<p align="center">2</p>          |<p align="center">5</p>       |
-|      Prismatic(P)       |                  1         |<p align="center">2</p>          |<p align="center">5</p>       |
-|      Helical (H)        |                  1         |<p align="center">N/A</p>        |<p align="center">5</p>       |
-|      Cylindrical(c)     |                  2         |<p align="center">N/A</p>        |<p align="center">4</p>       |
-|      Universal (U)      |                  2         |<p align="center">N/A</p>        |<p align="center">4</p>       |
-|      Spherical (S)      |                  3         |<p align="center">N/A</p>        |<p align="center">3</p>       |
+| ------------------------| ------------------------   | ------------------------ | ------------------------ | 
+|      Revolute (R)       | <p align="center">1</p>    |<p align="center">2</p>   |<p align="center">5</p>       |
+|      Prismatic(P)       | <p align="center">1</p>    |<p align="center">2</p>   |<p align="center">5</p>       |
+|      Helical (H)        | <p align="center">1</p>    |<p align="center">N/A</p> |<p align="center">5</p>       |
+|      Cylindrical(c)     | <p align="center">2</p>    |<p align="center">N/A</p> |<p align="center">4</p>       |
+|      Universal (U)      | <p align="center">2</p>    |<p align="center">N/A</p> |<p align="center">4</p>       |
+|      Spherical (S)      | <p align="center">3</p>    |<p align="center">N/A</p> |<p align="center">3</p>       |
 
 \
 ***STEP-BY-STEP COMPUTAION OF DEGREES OF FREEDOM (DoF)***
