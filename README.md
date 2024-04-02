@@ -38,11 +38,12 @@
 
 ***Grubler's Criterion for Mobility***
 
-| ***Planar Manipulator***  | ***Spatial Manipulator***|
-| ------------------------- | ------------------------ |
-|                           |                          |
+| ***Planar Manipulator***     | ***Spatial Manipulator***    |
+|-----------------------       |--------------------------    |
+|                              |                              |
 
-***Mechanical Manipulator Anatomy***
+
+***<p align="center">Mechanical Manipulator Anatomy***</p>
 
 | ***Joint Type*** | ***DoF *f****|***Constraints c between two planar rigid <p align="center">bodies</p>***|***Constraints c between two spatailrigid <p align="center">bodies</p>***| 
 | ------------------------| ------------------------   | ------------------------ | ------------------------ | 
@@ -62,7 +63,7 @@
 
 ##	IV. Kinematic Diagram and D-H Frame assignment of SCARA Manipulator 
 
-***<div align="justify"> ***Kinematics*** the science of motion that treats the subject without regard to the forces that cause it. It includes the geometry, arrangement, and relative motion of the parts that make up a robot's mechanism. Understanding and managing the motion of manipulators, mobile robots, robotic arms, and other robotic systems requires an extensive knowledge of kinematics.</div>
+***<div align="justify">Kinematics*** the science of motion that treats the subject without regard to the forces that cause it. It includes the geometry, arrangement, and relative motion of the parts that make up a robot's mechanism. Understanding and managing the motion of manipulators, mobile robots, robotic arms, and other robotic systems requires an extensive knowledge of kinematics.</div>
 \
 ***There are Two Main branches of Kinematics in Robotics***:
 
@@ -70,31 +71,116 @@
 
 **<div align="justify">2. Inverse Kinematics**: Inverse kinematics involves finding the joint angles or lengths required to position the end-effector at a desired location and orientation. It is essentially the reverse process of forward kinematics, where instead of finding the end position from joint configurations, it finds the joint configurations from the desired end position.</div>
 
-***Kinematic Diagram***
-<div align="justify">Diagram that shows how the links and joints are connected together when all of the joint variables have a value of zero.</div>
+***Kinematic Diagram***is a diagram that shows how the links and joints are connected together when all of the joint variables have a value of zero.
 
-***Joint Diagram***
+***Joint Diagrams***
 
 | ***Twisting/Revolute Joints***  |      ***Prismatic Linear/ Orthogonal Joints***    |
 | ----------------------------    | -----------------------                           |
 |                                 |                                                   |
 
-***Links*** are the rigid parts of the mechanical manipulator, joints are also considered links and the values are constant.
+***Links*** θ, are the rigid parts of the mechanical manipulator, joints are also considered links and the values are constant.
 
 - If revolute/twisting, links are drawn from the center of rotation.
 - If prismatic either linear orthogonal, links are drawn from center of translation.
 - If from base, links are drawn from center of gravity.
 
-  ***Joint Variable***
-  These are the values that change when the joints moves.
+***Joint Variables***
+\
+These are the values that change when the joints moves.
   
-|                         | ***Theta n***                   |      ***dn***            |
-|-------------------------| ----------------------------    | -----------------------  |
-|    Unit                 |                                 |                          |
-|    Indicator            |                                 |                          |
-|    Joint                |                                 |                          |
+|                         | ***θn***                   |      ***dn***            |
+|-------------------------| ---------------------------| -----------------------  |
+|    Unit                 |  Degrees/Radian            |   m, mm, cm, in, etc.    |
+|    Indicator            |  CounterClockwise(+)       |  displacement(d), always positive |
+|    Joint                |  Twisting/Revolute Joints  |  Prismatic Joints        |
 
-##	V. D-H Parametric Table of SCARA Manipulator														
+\
+**DENAVIT-HARTENBERG NOTATION**
+
+In 1955, Jacques Denavit and Richard Hartenberg introduced this convention in order to standardize the coordinate frames for spatial linkages.
+
+***<div align="justify">Denavit***, a French engineer, and ***Hartenberg***, a German-born Canadian engineer, collaborated on developing a systematic method to describe the geometry and kinematics of robotic manipulators. Their work was motivated by the increasing interest in using robots for various industrial applications, particularly in manufacturing. The development of DH notation was a significant advancement in the field of robotics because it provided a unified framework for describing the motion of robotic manipulators, regardless of their specific configuration or number of degrees of freedom. This notation simplified the analysis and control of robotic systems and became widely adopted in both academia and industry.</div>
+
+***D-H Notation*** use to solve the forward kinematics of a mechanical manipulator. 
+
+***Frames***
+In a mechanical manipulator a coordinate system that the manipulator uses to know where it is and where to go. 
+
+**Three types of Frames**
++ Base (world) Frame
++ User Frame
++ Tool Frame
+
+***D-H Frame Rules*** use to assign frames in a kinematic diagram for applying D-H Notation. These rules help to establish a standardized framework for describing the geometry and kinematics of the manipulator. Here are the D-H frame rules:
+
+**D-H Frame Rules**
+
+Rule 1: The Z axis must be the axis of rotation for the revolute/twisting, on the direction of translation for a prismatic joint.
+\
+\
+Rule 2: The X axis must be perpendicular both it’s own Z axis, and the Z axis of the frame before it.
+\
+\
+Rule 3: Each X axis must intersect the Z axis of the frame before it.
++ Rules for complying Rule 3:
+  + Rotate the axis until it hits the other
+  + Translate the axis until it hits the other
+
+Rule 4: All frames must follow the right hand rule, used to draw Y axis.
+
+**Applying D-H Frame Rules**
+
+| ***SCARA MANIPULATOR***         |   
+| ----------------------------    | 
+|                                 | 
+
+##	V. D-H Parametric Table of SCARA Manipulator		
+
+***<div align="justify">The Denavit-Hartenberg (D-H) Parameter Table*** is a systematic way to organize the D-H parameters for each joint of a robotic manipulator. It helps to define the geometric and kinematic relationships between adjacent links and joints in the manipulator. The D-H parameter table typically consists of rows corresponding to each joint, with columns representing the D-H parameters: θ, α, d, and r.</div>
+
+**Denavit-Hartenberg Notation**
+
+Step 1: Assign frames according to the four D-H Frame Rules
+\
+Step 2: Fill out the D-H Parametric Table
+\
+Step 3: Plug the table into the Homogeneous Transformation Matrix form
+\
+Step 4: Multiply the matrices together
+
+**Denavit-Hartenberg Table**
+
+|  ***n***  |  ***θ***  |  ***α***  |  ***d***  |  ***r***  |
+| ----------| ----------|-----------|-----------|-----------|
+|   1       |           |           |           |           |
+|   2       |           |           |           |           |
+|   3       |           |           |           |           |
+|   4       |           |           |           |           |
+
+***Notes:*** 
+\
+Columns = number of paramters
+\
+Rows = number of frames - 1
+\
+\
+θ and α 
++ Rotational Parameters/ Orientation Parameters
++ Unit: Radian/ Degree
+\
+\
+d and r
++ Position Parameters/ Translation Parameters
++ Unit: cm, mm, m, ft, in and etc. 
+
+***Denavit-Hartenberg Parameters***
+
+|  ***θ***  |  ***α***  |  ***d***  |  ***r***  |
+| ----------|-----------|-----------|-----------|
+| Rotation around Zn-1, that is required to get Xn-1 to match Xn, with the joint variable θ if the joint is twisting/revolute joint. | Rotation around Xn that is required to match Zn-1 to Zn. | The distance from the origin of n-1 and n, frames along the Zn-1 direction with joint variable (d) if joint is prismatic. | The distance from the origin of n-1 and n frames along the Xn direction. |
+
+
 ##	VI. HTM of SCARA Manipulator													
 ##	VII. Inverse Kinematics of SCARA Manipulator													
 ##	VIII. Forward and Inverse Kinematics GUI calculator of SCARA Manipulator									
