@@ -105,6 +105,7 @@ In 1955, Jacques Denavit and Richard Hartenberg introduced this convention in or
 ***D-H Notation*** use to solve the forward kinematics of a mechanical manipulator. 
 
 ***Frames***
+\
 In a mechanical manipulator a coordinate system that the manipulator uses to know where it is and where to go. 
 
 **Three types of Frames**
