@@ -165,7 +165,7 @@ Rule 4: All frames must follow the right hand rule, used to draw Y axis.
    
 | ***SCARA MANIPULATOR***         |   
 | ----------------------------    | 
-|                                 |
+|![Screenshot 2024-04-01 223347](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/7607a58e-c2eb-46ab-abe6-7efd68b1ab7a) |
 
 </div>
 
