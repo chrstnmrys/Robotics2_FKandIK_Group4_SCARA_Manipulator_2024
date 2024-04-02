@@ -113,9 +113,10 @@
 \
 **DENAVIT-HARTENBERG NOTATION**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In 1955, Jacques Denavit and Richard Hartenberg introduced this convention in order to standardize the coordinate frames for spatial linkages. ***D-H Notation*** use to solve the forward kinematics of a mechanical manipulator. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In 1955, Jacques Denavit and Richard Hartenberg introduced this convention in order to standardize the coordinate frames for spatial linkages.   ***D-H Notation*** use to solve the forward kinematics of a mechanical manipulator. 
 
-***<div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Denavit***, a French engineer, and ***Hartenberg***, a German-born Canadian engineer, collaborated on developing a systematic method to describe the geometry and kinematics of robotic manipulators. Their work was motivated by the increasing interest in using robots for various industrial applications, particularly in manufacturing. The development of DH notation was a significant advancement in the field of robotics because it provided a unified framework for describing the motion of robotic manipulators, regardless of their specific configuration or number of degrees of freedom. This notation simplified the analysis and control of robotic systems and became widely adopted in both academia and industry.</div>
+***<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Denavit***, a French engineer, and ***Hartenberg***, a German-born Canadian engineer, collaborated on developing a systematic 
+method to describe the geometry and kinematics of robotic manipulators. Their work was motivated by the increasing interest in using robots for various industrial applications, particularly in manufacturing. The development of DH notation was a significant advancement in the field of robotics because it provided a unified framework for describing the motion of robotic manipulators, regardless of their specific configuration or number of degrees of freedom. This notation simplified the analysis and control of robotic systems and became widely adopted in both academia and industry.</div>
 
 ***Frames***
 \
