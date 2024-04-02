@@ -74,7 +74,12 @@
 
 ***<div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kinematics*** the science of motion that treats the subject without regard to the forces that cause it. It includes the geometry, arrangement, and relative motion of the parts that make up a robot's mechanism. Understanding and managing the motion of manipulators, mobile robots, robotic arms, and other robotic systems requires an extensive knowledge of kinematics.</div>
 
+
+<div align="center">
+   
 ![Screenshot 2024-04-02 205748](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/1b0ba79e-9911-4288-a779-0a653367c303)
+
+</div>
 
 \
 ***There are Two Main branches of Kinematics in Robotics***:
@@ -83,14 +88,14 @@
 
 **<div align="justify">2. Inverse Kinematics**: Inverse kinematics involves finding the joint angles or lengths required to position the end-effector at a desired location and orientation. It is essentially the reverse process of forward kinematics, where instead of finding the end position from joint configurations, it finds the joint configurations from the desired end position.</div>
 
-***Kinematic Diagram***is a diagram that shows how the links and joints are connected together when all of the joint variables have a value of zero.
+***Kinematic Diagram*** is a diagram that shows how the links and joints are connected together when all of the joint variables have a value of zero.
 
 ***<div align="center">Joint Diagrams***</div>
 <div align="center">
    
 | ***Twisting/Revolute Joints***  |      ***Prismatic Linear/ Orthogonal Joints***    |
-| ----------------------------    | -----------------------                           |
-|                                 |                                                   |
+| ----------------------------    | ------------------------------------------------  |
+|![Screenshot 2024-04-02 212344](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/d42a9412-3313-4096-81ad-25342310c0cb) | ![Screenshot 2024-04-02 212412](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/27feb30f-2dc5-4933-a7cb-3e5eae85bf54)
 
 </div>
 
@@ -188,16 +193,16 @@ Step 4: Multiply the matrices together
 Columns = number of paramters
 \
 Rows = number of frames - 1
-\
-\
-θ and α 
-+ Rotational Parameters/ Orientation Parameters
-+ Unit: Radian/ Degree
-\
-\
-d and r
-+ Position Parameters/ Translation Parameters
-+ Unit: cm, mm, m, ft, in and etc. 
+
+<div align="center">
+   
+| ***θ and α***  |      ***d and r***     |
+| ---------------------------- | ----------------------- |
+|  Rotational Parameters/ Orientation Parameters   |      Position Parameters/ Translation Parameters                   |
+|  Unit: Radian/ Degree          |                     Unit: cm, mm, m, ft, in and etc.   |
+
+</div>
+
 
 ***<div align="center">Denavit-Hartenberg Parameters***</div>
 <div align="center">
