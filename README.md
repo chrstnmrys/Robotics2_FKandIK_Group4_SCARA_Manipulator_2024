@@ -73,6 +73,9 @@
 ##	IV. Kinematic Diagram and D-H Frame assignment of SCARA Manipulator 
 
 ***<div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kinematics*** the science of motion that treats the subject without regard to the forces that cause it. It includes the geometry, arrangement, and relative motion of the parts that make up a robot's mechanism. Understanding and managing the motion of manipulators, mobile robots, robotic arms, and other robotic systems requires an extensive knowledge of kinematics.</div>
+
+![Screenshot 2024-04-02 205748](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/1b0ba79e-9911-4288-a779-0a653367c303)
+
 \
 ***There are Two Main branches of Kinematics in Robotics***:
 
