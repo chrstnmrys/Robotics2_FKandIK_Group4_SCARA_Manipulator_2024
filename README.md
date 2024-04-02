@@ -105,6 +105,14 @@
 - If prismatic either linear orthogonal, links are drawn from center of translation.
 - If from base, links are drawn from center of gravity.
 
+<div align="center">
+   
+![Screenshot 2024-04-02 080223](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/5b674c17-e1cc-4ddd-8c10-b474bf63451c)
+
+</div>
+
+
+\
 ***<div align="center"> Joint Variables***</div>
 
 <div align="center"> These are the values that change when the joints moves.</div>
