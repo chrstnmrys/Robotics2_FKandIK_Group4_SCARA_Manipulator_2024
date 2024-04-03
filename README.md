@@ -42,7 +42,8 @@
    
 | ***Planar Manipulator***     | ***Spatial Manipulator***    |
 |-----------------------       |--------------------------    |
-|                              |                              |
+|          ![Screenshot 2024-04-03 213346](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/5f6fe03a-8da4-4929-ac3b-a4b415ec1c25) | ![Screenshot 2024-04-03 213815](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/9bd2ba64-d4b3-4b3a-ab0f-ef4dbf30edbe)  |
+
 
 </div>
 
@@ -61,12 +62,13 @@
 </div>
 
 \
-***<div align="center">STEP-BY-STEP COMPUTAION OF DEGREES OF FREEDOM (DoF)</div>***
+***<div align="center">STEP-BY-STEP COMPUTATION OF DEGREES OF FREEDOM (DoF)</div>***
 <div align="center">
    
-| ***RRP SCARA MANIPULATOR***  |      ***SOLUTION***     |
-| ---------------------------- | ----------------------- |
-|                              |                         |
+|      ***SOLUTION***     |
+| ----------------------- |
+|![Screenshot 2024-04-03 214722](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/c4d38b69-7bb5-43e7-8b7b-d7dc2b0a67f3)  
+***<div align="center">Therefore, this is an Under-Actuated Spatial Manipulator with 3-DoF.</div>***
 
 </div>
 
