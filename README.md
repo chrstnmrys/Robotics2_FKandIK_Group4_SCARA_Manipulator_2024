@@ -73,7 +73,7 @@
 ***<div align="center">STEP-BY-STEP COMPUTATION OF DEGREES OF FREEDOM (DoF)</div>***
 <div align="center">
    
-|      ***SOLUTION***     |
+|      ***COMPUTATION***     |
 | ----------------------- |
 |![Screenshot 2024-04-03 214722](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/c4d38b69-7bb5-43e7-8b7b-d7dc2b0a67f3)  
 ***<div align="center">Therefore, this is an Under-Actuated Spatial Manipulator with 3-DoF.</div>***
@@ -228,6 +228,15 @@ Rows = number of frames - 1
 |  ***θ***  |  ***α***  |  ***d***  |  ***r***  |
 | ----------|-----------|-----------|-----------|
 | Rotation around Zn-1, that is required to get Xn-1 to match Xn, with the joint variable θ if the joint is twisting/revolute joint. | Rotation around Xn that is required to match Zn-1 to Zn. | The distance from the origin of n-1 and n, frames along the Zn-1 direction with joint variable (d) if joint is prismatic. | The distance from the origin of n-1 and n frames along the Xn direction. |
+
+</div>
+
+
+<div align="center">
+   
+|      ***COMPUTATION***     |
+| ----------------------- |
+| ![Screenshot 2024-04-03 233210](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/e292ccbf-dc70-432d-bc21-78013af53780) |
 
 </div>
 
