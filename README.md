@@ -40,16 +40,24 @@
 ***<div align="center">Grubler's Criterion for Mobility***</div>
 <div align="center">
    
-| ***Planar Manipulator***     | ***Spatial Manipulator***    |
-|-----------------------       |--------------------------    |
-|          ![Screenshot 2024-04-03 213346](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/5f6fe03a-8da4-4929-ac3b-a4b415ec1c25) | ![Screenshot 2024-04-03 213815](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/9bd2ba64-d4b3-4b3a-ab0f-ef4dbf30edbe)  |
-
+| ***Planar Manipulator***     |
+|-----------------------       |
+|     ![Screenshot 2024-04-03 225206](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/cb7808ee-a47d-4b59-b153-5fbb6376f385) |
 
 </div>
 
-***<p align="center">Mechanical Manipulator Anatomy***</p>
 <div align="center">
    
+| ***Spatial Manipulator***    |
+|--------------------------    |
+|![Screenshot 2024-04-03 225248](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/3f28d81a-8349-495a-a5f6-568c1845f007) |
+
+</div>
+
+
+***<p align="center">Mechanical Manipulator Anatomy***</p>
+<div align="center">
+
 | ***Joint Type*** | ***DoF *f****|***Constraints c between two planar rigid <p align="center">bodies</p>***|***Constraints c between two spatailrigid <p align="center">bodies</p>***| 
 | ------------------------| ------------------------   | ------------------------ | ------------------------ | 
 |      Revolute (R)       | <p align="center">1</p>    |<p align="center">2</p>   |<p align="center">5</p>       |
