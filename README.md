@@ -87,7 +87,7 @@
 
 <div align="center">
    
-![Screenshot 2024-04-02 205748](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/1b0ba79e-9911-4288-a779-0a653367c303)
+![Screenshot 2024-04-01 223215](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/147c3e76-2d13-4475-8da4-67515609e901)
 
 </div>
 
