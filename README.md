@@ -272,4 +272,7 @@ Rows = number of frames - 1
 </div>
 
 ##	VIII. Forward and Inverse Kinematics GUI calculator of SCARA Manipulator									
-##	IX. References														
+##	IX. References												
+https://robotsdoneright.com/Articles/what-is-a-scara-robot.html
+
+
