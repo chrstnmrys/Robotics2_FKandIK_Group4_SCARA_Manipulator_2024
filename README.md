@@ -241,6 +241,20 @@ Rows = number of frames - 1
 </div>
 
 ##	VI. HTM of SCARA Manipulator													
-##	VII. Inverse Kinematics of SCARA Manipulator													
+##	VII. Inverse Kinematics of SCARA Manipulator	
+
+***<div align="center">STEP-BY-STEP SOLUTION USING GRAPHICAL METHOD***</div>
+<div align="center">
+   
+|      ***TOP VIEW***     |  ***EQUATIONS***     |
+| ----------------------- | -------------------- |
+|![Screenshot 2024-04-04 182149](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/36e12b54-21c4-4045-91af-491d0e32d2eb) |![Screenshot 2024-04-04 182455](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/41b5e677-7a5f-41a5-8c5c-b5c5bf5f437d) |
+
+|      ***FRONT VIEW***     |  ***EQUATIONS***     |
+| ----------------------- | -------------------- |
+| ![Screenshot 2024-04-04 182212](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/5863161c-b5c8-4646-8467-288d2dbcf091) |![Screenshot 2024-04-04 182957](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/5253b075-29cc-4661-809f-8f9f428015ed) |
+
+</div>
+
 ##	VIII. Forward and Inverse Kinematics GUI calculator of SCARA Manipulator									
 ##	IX. References														
