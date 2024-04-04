@@ -168,16 +168,8 @@ Rule 4: All frames must follow the right hand rule, used to draw Y axis.
 
 **Denavit-Hartenberg Notation**
 
-Step 1: Assign frames according to the four D-H Frame Rules
-\
-Step 2: Fill out the D-H Parametric Table
-\
-Step 3: Plug the table into the Homogeneous Transformation Matrix form
-\
-Step 4: Multiply the matrices together
+**Denavit-Hartenberg Table**
 
-**<div align="center">Denavit-Hartenberg Table**</div>
-<div align="center">
    
 |  ***n***  |  ***θ***  |  ***α***  |  ***d***  |  ***r***  |       
 | ----------| ----------|-----------|-----------|-----------|
@@ -186,7 +178,6 @@ Step 4: Multiply the matrices together
 |   3       |           |           |           |           |
 |   4       |           |           |           |           |
 
-</div>
 
 ***Notes:*** 
 \
