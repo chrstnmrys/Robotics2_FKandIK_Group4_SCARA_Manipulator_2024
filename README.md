@@ -236,7 +236,7 @@ Rows = number of frames - 1
    
 |      ***COMPUTATION***     |
 | ----------------------- |
-| ![Screenshot 2024-04-03 233210](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/e292ccbf-dc70-432d-bc21-78013af53780) |
+| ![Screenshot 2024-04-04 144101](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/270a2967-26c4-4c62-9f83-d8f3753c09eb) |
 
 </div>
 
