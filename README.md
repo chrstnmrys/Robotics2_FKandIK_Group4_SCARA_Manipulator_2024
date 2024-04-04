@@ -1,6 +1,11 @@
 #  <p align="center">**Robotics 2: Forward and Inverse Kinematics of a**</p>
 # <p align="center">**SCARA Manipulator**</p>
-##	I. Abstract of the Project														
+##	I. Abstract of the Project						
+<div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SCARA (Selective Compliance Assembly Robot Arm) Manipulators represent a significant advancement in robotics, offering versatility and precision in various industrial applications. Initially developed for assembly tasks, SCARA robots feature a horizontal arm structure with articulated joints, providing precise movement in the X, Y, and Z axes while exhibiting selective compliance.This project aimed to develop a GUI (Graphical User Interface) Calculator to streamline forward kinematics and inverse kinematics calculations. We examine the calculation of Degrees of Freedom, followed by the formulation of D-H parameters and the construction of the D-H parametric table to represent the robot's kinematic chain. Homogeneous transformation matrices serve an important role in describing the relationship between consecutive links, allowing for a smooth transition between frames. The inverse kinematics problem, which is vital in maintaining the end-effector position and orientation, is handled utilizing graphical approaches for SCARA manipulators.</div>
+
+
+<div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Furthermore, advancements in sensor technology and control systems enhance their capabilities, enabling seamless integration into automated production lines. This abstract provides a comprehensive overview of SCARA manipulator kinematics and highlights the integration of computational tools for practical implementation in industrial automation.</div>
+
 ##  II. Introduction of the Project	
 ***<div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>SCARA (Selective Compliance Assembly Robot Arm) Manipulators</i>*** are an essential advancement in the world of robotics, distinguished by their distinctive design and varied functionality. SCARA robots were developed in the 1980s and have since become vital components in a variety of industrial and production environments, providing accurate control and economical operation. At its core, a SCARA manipulator comprises articulated arms capable of movement in the horizontal plane, with a vertical axis of rotation for assembly tasks. This distinctive configuration grants SCARA robots exceptional speed and accuracy, making them ideal for tasks such as assembly, pick-and-place operations, packaging, and more.</div>
 
