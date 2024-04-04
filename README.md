@@ -240,7 +240,11 @@ Rows = number of frames - 1
 
 </div>
 
-##	VI. HTM of SCARA Manipulator													
+##	VI. HTM of SCARA Manipulator			
+
+***<div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Homogeneous Transformation Matrix*** is a 4x4 matrix, consisting of a 3x3 rotation matrix combined with a 3x1 position vector along with an augmentation column, that describes the transformation of a manipulator in a coordinate system.</div>
+
+
 ##	VII. Inverse Kinematics of SCARA Manipulator	
 
 ***<div align="center">STEP-BY-STEP SOLUTION USING GRAPHICAL METHOD***</div>
