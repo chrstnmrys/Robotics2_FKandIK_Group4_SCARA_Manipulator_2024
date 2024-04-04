@@ -242,7 +242,9 @@ Rows = number of frames - 1
 
 ##	VI. HTM of SCARA Manipulator			
 
-***<div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Homogeneous Transformation Matrix*** is a 4x4 matrix, consisting of a 3x3 rotation matrix combined with a 3x1 position vector along with an augmentation column, that describes the transformation of a manipulator in a coordinate system.</div>
+***<div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Homogeneous Transformation Matrices*** are fundamental concepts in robotics and computer graphics, particularly in the context of describing transformations in 3D space. These matrices are used to represent both rotation and translation transformations in a single, unified framework. In robotics, homogeneous transformation matrices are particularly important for representing the position and orientation of objects or coordinate frames relative to each other within a robotic system. They are commonly used to describe the pose of robot links or end-effectors with respect to a base coordinate frame.</div>
+
+<div align="justify"> Homogeneous Transformation Matrix is a 4x4 matrix, consisting of a 3x3 rotation matrix combined with a 3x1 position vector along with an augmentation column, that describes the transformation of a manipulator in a coordinate system.</div>
 
 
 ##	VII. Inverse Kinematics of SCARA Manipulator	
