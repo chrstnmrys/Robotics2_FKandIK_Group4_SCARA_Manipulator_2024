@@ -1,7 +1,8 @@
 #  <p align="center">**Robotics 2: Forward and Inverse Kinematics of a**</p>
 # <p align="center">**SCARA Manipulator**</p>
 ##	I. Abstract of the Project						
-<div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SCARA (Selective Compliance Assembly Robot Arm) Manipulators represent a significant advancement in robotics, offering versatility and precision in various industrial applications. Initially developed for assembly tasks, SCARA robots feature a horizontal arm structure with articulated joints, providing precise movement in the X, Y, and Z axes while exhibiting selective compliance.This project aimed to develop a GUI (Graphical User Interface) Calculator to streamline forward kinematics and inverse kinematics calculations. We examine the calculation of Degrees of Freedom, followed by the formulation of D-H parameters and the construction of the D-H parametric table to represent the robot's kinematic chain. Homogeneous transformation matrices serve an important role in describing the relationship between consecutive links, allowing for a smooth transition between frames. The inverse kinematics problem, which is vital in maintaining the end-effector position and orientation, is handled utilizing graphical approaches for SCARA manipulators.</div>
+
+<div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SCARA (Selective Compliance Assembly Robot Arm) Manipulators represent a significant advancement in robotics, offering versatility and precision in various industrial applications. Initially developed for assembly tasks, SCARA robots feature a horizontal arm structure with articulated joints, providing precise movement in the X, Y, and Z axes while exhibiting selective compliance.This project aimed to develop a GUI (Graphical User Interface) Calculator to streamline forward kinematics and inverse kinematics calculations. Integrating a GUI calculator improves the usability and accessibility of SCARA manipulators by giving operators intuitive control over the robot's movements. The GUI calculator allows for real-time input of desired end-effector positions and orientations, which simplifies the process of generating suitable joint configurations. Using the kinematic equations that govern SCARA manipulators, the calculator converts user inputs into appropriate joint angle values using inverse kinematics computations. The GUI interface ensures smooth communication with the SCARA manipulator by providing interactive features including input fields, sliders, and visual feedback.We examine the calculation of Degrees of Freedom, followed by the formulation of D-H parameters and the construction of the D-H parametric table to represent the robot's kinematic chain. Homogeneous transformation matrices serve an important role in describing the relationship between consecutive links, allowing for a smooth transition between frames. The inverse kinematics problem, which is vital in maintaining the end-effector position and orientation, is handled utilizing graphical approaches for SCARA manipulators.</div>
 
 
 <div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Furthermore, advancements in sensor technology and control systems enhance their capabilities, enabling seamless integration into automated production lines. This abstract provides a comprehensive overview of SCARA manipulator kinematics and highlights the integration of computational tools for practical implementation in industrial automation.</div>
@@ -18,15 +19,6 @@
 ***<div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Degrees of Freedom*** is define as the minimum number of independent parameters/variables/coordinates needed to describe a system completely. Consider a robotic arm. Its degrees of freedom are determined by each joint, which allows it to move in any direction, turn, and bend. For example, a simple arm with an elbow and shoulder joint may have two degrees of freedom, one for the movement of each joint.</div>
 
 <div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; More generally, DoF is essential to comprehending the capabilities of a robot. A robot with more degrees of freedom can carry out more complex tasks and adjust to a larger variety of conditions. Higher DoF can, however, also lead to more complex programming since they usually call for more advanced control systems. A key component of robotics design is balancing the number of degrees of freedom with the particular tasks a robot has to perform.</div>
-
-\
-\
-**The following are the Ideal Degrees of Freedom**
-   
-+ A point in 2D: 2-DoF ; 3D: 3-DoF
-+ A rigid body in 3D: 6-DoF
-+ Planar Manipulator: 3-DoF
-+ Spatial Manipulator: 6-DoF
 
 \
 **Three Types of Manipulator based on the number of Degrees of Freedom**
@@ -89,13 +81,6 @@
 
 ***<div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kinematics*** the science of motion that treats the subject without regard to the forces that cause it. It includes the geometry, arrangement, and relative motion of the parts that make up a robot's mechanism. Understanding and managing the motion of manipulators, mobile robots, robotic arms, and other robotic systems requires an extensive knowledge of kinematics.</div>
 
-
-<div align="center">
-   
-![Screenshot 2024-04-01 223215](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/147c3e76-2d13-4475-8da4-67515609e901)
-
-</div>
-
 \
 ***There are Two Main branches of Kinematics in Robotics***:
 
@@ -119,13 +104,6 @@
 - If revolute/twisting, links are drawn from the center of rotation.
 - If prismatic either linear orthogonal, links are drawn from center of translation.
 - If from base, links are drawn from center of gravity.
-
-<div align="center">
-   
-![Screenshot 2024-04-02 080223](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/5b674c17-e1cc-4ddd-8c10-b474bf63451c)
-
-</div>
-
 
 \
 ***<div align="center"> Joint Variables***</div>
@@ -228,13 +206,19 @@ Rows = number of frames - 1
 
 
 ***<div align="center">Denavit-Hartenberg Parameters***</div>
-<div align="center">
    
-|  ***θ***  |  ***α***  |  ***d***  |  ***r***  |
-| ----------|-----------|-----------|-----------|
-| Rotation around Zn-1, that is required to get Xn-1 to match Xn, with the joint variable θ if the joint is twisting/revolute joint. | Rotation around Xn that is required to match Zn-1 to Zn. | The distance from the origin of n-1 and n, frames along the Zn-1 direction with joint variable (d) if joint is prismatic. | The distance from the origin of n-1 and n frames along the Xn direction. |
+***θ*** 
+Rotation around Zn-1, that is required to get Xn-1 to match Xn, with the joint variable θ if the joint is twisting/revolute joint. 
 
-</div>
+***α*** 
+Rotation around Xn that is required to match Zn-1 to Zn.
+
+***d*** 
+The distance from the origin of n-1 and n, frames along the Zn-1 direction with joint variable (d) if joint is prismatic.
+
+***d*** 
+The distance from the origin of n-1 and n frames along the Xn direction.
+
 
 
 <div align="center">
