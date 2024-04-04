@@ -247,6 +247,15 @@ Rows = number of frames - 1
 
 ##	VII. Inverse Kinematics of SCARA Manipulator	
 
+***<div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kinematics*** the science of motion that treats the subject without regard to the forces that cause it. It includes the geometry, arrangement, and relative motion of the parts that make up a robot's mechanism. Understanding and managing the motion of manipulators, mobile robots, robotic arms, and other robotic systems requires an extensive knowledge of kinematics.</div>
+
+***There are Two Main branches of Kinematics in Robotics***:
+
+**<div align="justify">1. Forward Kinematics**: This branch deals with determining the position and orientation of the end-effector (the tool or device attached to the end of a robot arm) given the joint angles or lengths of the robot's links. In other words, it calculates the end position of the robot's tool given the joint configurations.</div>
+
+**<div align="justify">2. Inverse Kinematics**: Inverse kinematics involves finding the joint angles or lengths required to position the end-effector at a desired location and orientation. It is essentially the reverse process of forward kinematics, where instead of finding the end position from joint configurations, it finds the joint configurations from the desired end position.</div>
+
+
 ***<div align="center">STEP-BY-STEP SOLUTION USING GRAPHICAL METHOD***</div>
 <div align="center">
    
