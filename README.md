@@ -78,7 +78,7 @@ Links, are the rigid parts of the mechanical manipulator, joints are also consid
 - If prismatic either linear orthogonal, links are drawn from center of translation.
 - If from base, links are drawn from center of gravity.
 
-\
+
 <div align="center"> Joint Variables</div>
 
 <div align="center"> These are the values that change when the joints moves.</div>
@@ -92,10 +92,10 @@ Links, are the rigid parts of the mechanical manipulator, joints are also consid
 
 </div>
 
-\
+
 DENAVIT-HARTENBERG NOTATION
 
-\
+
 In 1955, Jacques Denavit and Richard Hartenberg introduced this convention in order to standardize the coordinate frames for spatial linkages.   D-H Notationbuse to solve the forward kinematics of a mechanical manipulator. 
 
 ***<div align="justify">Denavit***, a French engineer, and ***Hartenberg***, a German-born Canadian engineer, collaborated on developing a systematic 
