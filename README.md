@@ -256,6 +256,17 @@ The distance from the origin of n-1 and n frames along the Xn direction.
 
 ##	VIII. Forward and Inverse Kinematics GUI calculator of SCARA Manipulator									
 ## IX. Video Presentations
+
++ Degrees of Freedom of SCARA Manipulator
+
++ Kinematic Diagram and D-H Frame assignment of SCARA Manipulator 
+
++ D-H Parametric Table of SCARA Manipulator
+
++ HTM of SCARA Manipulator			
+
++ Inverse Kinematics of SCARA Manipulator
+
 ##	X. References												
 https://robotsdoneright.com/Articles/what-is-a-scara-robot.html
 
