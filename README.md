@@ -309,11 +309,12 @@ In essence, the Forward Kinematics GUI calculator for SCARA manipulators maximiz
 ## IX. Video Presentations
 
 + Degrees of Freedom of SCARA Manipulator
-
+   - https://youtu.be/mOepO-KTVWM?si=8isQdyEZ3a9oyO8O
 + Kinematic Diagram and D-H Frame assignment of SCARA Manipulator 
-
+   - https://youtu.be/TOnIAo2py4s?si=EEIDet8OALfZ9fKo
+   - https://youtu.be/3qmJ3NAQ5-E?si=PFwaCPd2xF_aSlk-
 + D-H Parametric Table of SCARA Manipulator
-
+   - https://youtu.be/dzJ9iJEPGoE?si=2KAdAG3UHAjDmigJ
 + HTM of SCARA Manipulator			
    - https://youtube.com/watch?v=7g6c-o29TvI
 + Inverse Kinematics of SCARA Manipulator
