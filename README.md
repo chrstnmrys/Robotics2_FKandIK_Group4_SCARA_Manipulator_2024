@@ -1,6 +1,7 @@
 #  <p align="center">**Robotics 2: Forward and Inverse Kinematics of a**</p>
-# <p align="center">**SCARA Manipulator**</p>
-##	I. Abstract of the Project						
+# <p align="center">$${\color{red}**SCARA**}‎~~{\color{red}**Manipulator**}$$</p>
+
+##	I. Abstract of the Proj‎ect						
 
 *<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SCARA (Selective Compliance Assembly Robot Arm) Manipulators* represent a significant advancement in robotics, offering versatility and precision in various industrial applications. Initially developed for assembly tasks, SCARA robots feature a horizontal arm structure with articulated joints, providing precise movement in the X, Y, and Z axes while exhibiting selective compliance.This project aimed to develop a GUI (Graphical User Interface) Calculator to streamline forward kinematics and inverse kinematics calculations. Integrating a GUI calculator improves the usability and accessibility of SCARA manipulators by giving operators intuitive control over the robot's movements. The GUI calculator allows for real-time input of desired end-effector positions and orientations, which simplifies the process of generating suitable joint configurations. Using the kinematic equations that govern SCARA manipulators, the calculator converts user inputs into appropriate joint angle values using inverse kinematics computations. The GUI interface ensures smooth communication with the SCARA manipulator by providing interactive features including input fields, sliders, and visual feedback.We examine the calculation of Degrees of Freedom, followed by the formulation of D-H parameters and the construction of the D-H parametric table to represent the robot's kinematic chain. Homogeneous transformation matrices serve an important role in describing the relationship between consecutive links, allowing for a smooth transition between frames. The inverse kinematics problem, which is vital in maintaining the end-effector position and orientation, is handled utilizing graphical approaches for SCARA manipulators. Furthermore, advancements in sensor technology and control systems enhance their capabilities, enabling seamless integration into automated production lines. This abstract provides a comprehensive overview of SCARA manipulator kinematics and highlights the integration of computational tools for practical implementation in industrial automation.</div>
 
@@ -234,7 +235,77 @@ The distance from the origin of n-1 and n frames along the Xn direction.
 
  </div>
 
-##	VIII. Forward and Inverse Kinematics GUI calculator of SCARA Manipulator									
+##	VIII. Forward and Inverse Kinematics GUI calculator of SCARA Manipulator	
+
+<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The development of a Graphical User Interface (GUI) calculator for the Forward Kinematics of a SCARA (Selective Compliance Assembly Robot Arm) Manipulator represents a significant stride in enhancing accessibility and usability in robotics. By leveraging programming languages such as Python and GUI frameworks like Tkinter, engineers and enthusiasts can now seamlessly interact with complex robotic systems,
+understanding their spatial configurations with ease. </div>
+<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+<p align="center">
+   <img src = "https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/158394790/3ab5cf4b-78b0-43ba-8165-6d0e32a9bfa1)" />
+</p>
+
+<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The GUI calculator fosters innovation and comes with a user-friendly interface
+In essence, the Forward Kinematics GUI calculator for SCARA manipulators maximizes the fusion of technology and accessibility, empowering users to unravel the intricacies of robotic motion effortlessly. </div>
+
+<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+
+> In this GUI calculator, the students incorporate various functions:
+1. **Forward Function**
+   - <div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;Forward Button of the GUI calculator solves the Forward Kinematics of a SCARA Manipulator, as well as the Homogeneous Transformation Matrices, and shows a representation of the transformation of the robotic arm. </div>
+<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+<p align="center">
+<img src = "https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/158394790/76fbfcb9-0f24-40cb-b38f-b82e9ae826ee" />
+</p>
+<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+
+2. **Inverse Function**
+   - <div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;Inverse Button of the GUI calculator solves the Inverse Kinematics of a SCARA Manipulator and shows a representation of the transformation of the robotic arm.</div>
+<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+<p align="center">
+<img src = "https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/158394790/f749af7e-a1f8-4ee5-af93-7bb16545ea70" />
+</p>
+<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+
+3. **Reset Function**
+   - <div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;Reset Button of the GUI calculator resets the values processed in the calculator and deletes all of the entries.</div>
+<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+<p align="center">
+<img src = "https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/158394790/a1ab3488-1e09-4b4e-9c7b-65965a611de1" />
+</p>
+<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+
+4. **About SCARA Manipulator Function**
+   - <div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;SCARA Manipulator Button of the GUI calculator ultimately transcends mere convenience; it presents a brief information about the SCARA Manipulator.</div>
+ <div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>  
+<p align="center">
+<img src = "https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/158394790/d48af3b0-45ae-426b-9956-3058678c940a" />
+</p>
+<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+
+5. **Degrees of Freedom Function**
+   - <div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;SCARA DOF Button of the GUI calculator presents the computation of the Degrees of Freedom of the SCARA Manipulator.</div>
+<p align="center">
+<img src = "https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/158394790/d2cd61b3-2de4-4652-9eaf-f81f394692f6" />
+</p>
+<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+
+6. **DH Assigned Frames Function**
+   - <div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;DH Frames Button of the GUI calculator shows the assigned DH frames using the Kinematic Diagram of the SCARA MANIPULATOR.</div>
+<p align="center">
+<img src = "https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/158394790/36a62231-3b30-490e-a317-39465ef2b494" />
+</p>
+<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+
+7. **Parametric Table Function**
+    - <div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;Parametric Table Button of the GUI calculator shows the organized parameters generated using the D-H frame assignment rules.</div>
+<p align="center">
+<img src = "https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/158394790/8fa62eac-5056-4423-be25-81a5c1e23ac9" />
+</p>
+<div align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+
+
+
 ## IX. Video Presentations
 
 + Degrees of Freedom of SCARA Manipulator
@@ -244,9 +315,9 @@ The distance from the origin of n-1 and n frames along the Xn direction.
 + D-H Parametric Table of SCARA Manipulator
 
 + HTM of SCARA Manipulator			
-
+   - https://youtube.com/watch?v=7g6c-o29TvI
 + Inverse Kinematics of SCARA Manipulator
-
+   - https://youtube.com/watch?v=mifuxa4e4-Y
 ##	X. References												
 https://robotsdoneright.com/Articles/what-is-a-scara-robot.html
 
