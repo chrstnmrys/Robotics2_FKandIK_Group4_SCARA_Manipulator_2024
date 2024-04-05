@@ -6,14 +6,14 @@
 
 ##  II. Introduction of the Project	
 <div align="justify"><i>SCARA (Selective Compliance Assembly Robot Arm) Manipulators</i> are an essential advancement in the world ofrobotics, distinguished by their distinctive design and varied functionality. SCARA robots were developed in the 1980s and have since become vital components in a variety of industrial and production environments, providing accurate control and economical operation. At its core, a SCARA manipulator comprises articulated arms capable of movement in the horizontal plane, with a vertical axis of rotation for assembly tasks. This distinctive configuration grants SCARA robots exceptional speed and accuracy, making them ideal for tasks such as assembly, pick-and-place operations, packaging, and more.</div>
-
+\
 <div align="justify">The four-axis configuration of SCARA robots allows them to move along the X, Y, and Z planes. It also provides them with 360 degrees of rotational movement around the Z axis which allows for a cylindrical work envelope. The axes of SCARA robots feature a combination of dynamic and rigid movements. The X and Y axes of SCARA’s are flexible allowing for dynamic movements. This is where the “Selective Compliance” comes from in their name. Compliance refers to flexibility, but not all axes are flexible, so it is selective. The Z axis is the rigid axis since it is fixed. The Selective Compliance feature of SCARA refers to the ability to maintain rigidity and precision during operations while also providing controlled compliance or flexibility to particular directions. This feature allows SCARA robots to adapt to different workpieces and surroundings, resulting in consistent performance across a wide range of applications.</div>
 <div align="justify">SCARA Manipulators are versatile beyond only their mechanical design. These robots, which have advanced control systems and programming interfaces, may easily be integrated into automated production lines and synced with other equipment, increasing productivity and efficiency.</div>
 
 ##  III. Degrees of Freedom of SCARA Manipulator 	
 
 <div align="justify">Degrees of Freedom is define as the minimum number of independent parameters/variables/coordinates needed to describe a system completely. Consider a robotic arm. Its degrees of freedom are determined by each joint, which allows it to move in any direction, turn, and bend. For example, a simple arm with an elbow and shoulder joint may have two degrees of freedom, one for the movement of each joint.</div>
-
+\
 <div align="justify">More generally, DoF is essential to comprehending the capabilities of a robot. A robot with more degrees of freedom can carry out more complex tasks and adjust to a larger variety of conditions. Higher DoF can, however, also lead to more complex programming since they usually call for more advanced control systems. A key component of robotics design is balancing the number of degrees of freedom with the particular tasks a robot has to perform.</div>
 
 \
@@ -98,8 +98,7 @@ DENAVIT-HARTENBERG NOTATION
 
 In 1955, Jacques Denavit and Richard Hartenberg introduced this convention in order to standardize the coordinate frames for spatial linkages.   D-H Notationbuse to solve the forward kinematics of a mechanical manipulator. 
 
-***<div align="justify">Denavit***, a French engineer, and ***Hartenberg***, a German-born Canadian engineer, collaborated on developing a systematic 
-method to describe the geometry and kinematics of robotic manipulators. Their work was motivated by the increasing interest in using robots for various industrial applications, particularly in manufacturing. The development of DH notation was a significant advancement in the field of robotics because it provided a unified framework for describing the motion of robotic manipulators, regardless of their specific configuration or number of degrees of freedom. This notation simplified the analysis and control of robotic systems and became widely adopted in both academia and industry.</div>
+***<div align="justify">Denavit***, a French engineer, and ***Hartenberg***, a German-born Canadian engineer, collaborated on developing a systematic method to describe the geometry and kinematics of robotic manipulators. Their work was motivated by the increasing interest in using robots for various industrial applications, particularly in manufacturing. The development of DH notation was a significant advancement in the field of robotics because it provided a unified framework for describing the motion of robotic manipulators, regardless of their specific configuration or number of degrees of freedom. This notation simplified the analysis and control of robotic systems and became widely adopted in both academia and industry.</div>
 
 Frames
 \
