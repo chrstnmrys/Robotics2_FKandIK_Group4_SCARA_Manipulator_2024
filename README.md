@@ -228,7 +228,7 @@ The distance from the origin of n-1 and n frames along the Xn direction.
 
 ##	VII. Inverse Kinematics of SCARA Manipulator	
 
-***<div align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kinematics*** the science of motion that treats the subject without regard to the forces that cause it. It includes the geometry, arrangement, and relative motion of the parts that make up a robot's mechanism. Understanding and managing the motion of manipulators, mobile robots, robotic arms, and other robotic systems requires an extensive knowledge of kinematics.</div>
+***<div align="justify">Kinematics*** the science of motion that treats the subject without regard to the forces that cause it. It includes the geometry, arrangement, and relative motion of the parts that make up a robot's mechanism. Understanding and managing the motion of manipulators, mobile robots, robotic arms, and other robotic systems requires an extensive knowledge of kinematics.</div>
 
 ***There are Two Main branches of Kinematics in Robotics***:
 
