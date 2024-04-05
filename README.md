@@ -252,6 +252,8 @@ The distance from the origin of n-1 and n frames along the Xn direction.
 
  ![Screenshot 2024-04-04 182957](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/5253b075-29cc-4661-809f-8f9f428015ed) 
 
+ </div>
+
 ##	VIII. Forward and Inverse Kinematics GUI calculator of SCARA Manipulator									
 ## IX. Video Presentations
 ##	X. References												
