@@ -117,7 +117,9 @@
 </div>
 
 \
-**DENAVIT-HARTENBERG NOTATION**
+***DENAVIT-HARTENBERG NOTATION***
+
+\
 In 1955, Jacques Denavit and Richard Hartenberg introduced this convention in order to standardize the coordinate frames for spatial linkages.   ***D-H Notation*** use to solve the forward kinematics of a mechanical manipulator. 
 
 ***<div align="justify">Denavit***, a French engineer, and ***Hartenberg***, a German-born Canadian engineer, collaborated on developing a systematic 
@@ -203,6 +205,28 @@ The distance from the origin of n-1 and n frames along the Xn direction.
 
 <div align="justify"> Homogeneous Transformation Matrix is a 4x4 matrix, consisting of a 3x3 rotation matrix combined with a 3x1 position vector along with an augmentation column, that describes the transformation of a manipulator in a coordinate system.</div>
 
+<div align="center">
+   
+|      ***ROTATION MATRICES OF SCARA MANIPULATOR***    |
+| ----------------------- | 
+| ![Screenshot 2024-04-05 152003](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/82a31d92-7d2b-41e1-8153-db53d4ae8241) |
+
+![434243129_764966829073591_8296782512713456778_n](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/93f0b719-dcc7-40f6-afa6-a4d0c7ecba74)
+
+</div>
+
+<div align="center">
+   
+|      ***POSITION VECTORS OF SCARA MANIPULATOR***    |
+| ----------------------- | 
+|![434199899_1578215076365522_3786866650023595446_n](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/6a35193d-0c61-40b5-b3f7-9ff52cf83f70)|
+
+![Screenshot 2024-04-05 152031](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/e654c9d2-bcfa-470c-8cf3-302a3bdf6d52)
+
+![Screenshot 2024-04-05 152108](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/7a96ce74-c49f-4927-8544-61b848103f3e)
+
+</div>
+
 
 ##	VII. Inverse Kinematics of SCARA Manipulator	
 
@@ -218,17 +242,18 @@ The distance from the origin of n-1 and n frames along the Xn direction.
 ***<div align="center">STEP-BY-STEP SOLUTION USING GRAPHICAL METHOD***</div>
 <div align="center">
    
-|      ***TOP VIEW***     |  ***EQUATIONS***     |
+|      ***TOP VIEW***     |  ***FRONT VIEW***     |
 | ----------------------- | -------------------- |
-|![Screenshot 2024-04-04 182149](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/36e12b54-21c4-4045-91af-491d0e32d2eb) |![Screenshot 2024-04-04 182455](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/41b5e677-7a5f-41a5-8c5c-b5c5bf5f437d) |
+|![Screenshot 2024-04-04 182149](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/36e12b54-21c4-4045-91af-491d0e32d2eb) |![Screenshot 2024-04-04 182212](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/5863161c-b5c8-4646-8467-288d2dbcf091) |
 
-|      ***FRONT VIEW***     |  ***EQUATIONS***     |
-| ----------------------- | -------------------- |
-| ![Screenshot 2024-04-04 182212](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/5863161c-b5c8-4646-8467-288d2dbcf091) |![Screenshot 2024-04-04 182957](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/5253b075-29cc-4661-809f-8f9f428015ed) |
+|      ***EQUATIONS***    |
+| ----------------------- | 
+| ![Screenshot 2024-04-04 182455](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/4086f258-8cc6-49dc-ad42-91d1c4b6bf43) |
 
-</div>
+ ![Screenshot 2024-04-04 182957](https://github.com/chrstnmrys/Robotics2_FKandIK_Group4_SCARA_Manipulator_2024/assets/157685794/5253b075-29cc-4661-809f-8f9f428015ed) 
 
 ##	VIII. Forward and Inverse Kinematics GUI calculator of SCARA Manipulator									
+
 ##	IX. References												
 https://robotsdoneright.com/Articles/what-is-a-scara-robot.html
 
