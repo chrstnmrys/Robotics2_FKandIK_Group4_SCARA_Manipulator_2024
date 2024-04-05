@@ -167,24 +167,6 @@ Rule 4: All frames must follow the right hand rule, used to draw Y axis.
 
 **Denavit-Hartenberg Notation**
 
-**Denavit-Hartenberg Table**
-
-   
-|  ***n***  |  ***θ***  |  ***α***  |  ***d***  |  ***r***  |       
-| ----------| ----------|-----------|-----------|-----------|
-|   1       |           |           |           |           |
-|   2       |           |           |           |           |
-|   3       |           |           |           |           |
-|   4       |           |           |           |           |
-
-
-***Notes:*** 
-\
-\
-Columns = number of paramters
-\
-Rows = number of frames - 1
-
 <div align="center">
    
 | ***θ and α***  |      ***d and r***     |
@@ -193,7 +175,6 @@ Rows = number of frames - 1
 |  Unit: Radian/ Degree          |                     Unit: cm, mm, m, ft, in and etc.   |
 
 </div>
-
 
 ***<div align="center">Denavit-Hartenberg Parameters***</div>
    
